@@ -1,0 +1,13 @@
+.port-t-box{
+    display: flex;
+    justify-content: center;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.portTitle{
+    font-size: 5rem;
+    color: #123143;
+    text-shadow: 
+    5px 5px 10px #0a212e, 
+    -5px -5px 10px #1f506d;
+}

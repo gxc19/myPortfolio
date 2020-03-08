@@ -1,0 +1,45 @@
+.about-t-box{
+    display: flex;
+    justify-content: center;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.aboutTitle{
+    font-size: 5rem;
+    color: #123143;
+    text-shadow: 
+    6px 6px 10px #0a212e, 
+    -6px -6px 10px #1f506d;
+}
+
+.info-box{
+    display: flex;
+    justify-content: center;
+}
+
+.info-text{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    height: 200px;
+    width: 900px;
+    box-shadow: 
+    6px 6px 10px rgb(11, 54, 70), 
+    -6px -6px 10px rgb(16, 74, 97);
+    font-family: 'Orbitron', sans-serif;
+    border-radius: 10px;
+}
+
+.info2-text{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    margin-top: 50px;
+    height: 350px;
+    width: 900px;
+    box-shadow: 
+    6px 6px 10px rgb(30, 132, 136), 
+    -6px -6px 10px rgb(32, 141, 158);
+    font-family: 'Orbitron', sans-serif;
+    border-radius: 10px;
+}
