@@ -6,8 +6,20 @@
 
 .portTitle{
     font-size: 5rem;
-    color: #123143;
+    color: #0B2A3A;
     text-shadow: 
-    5px 5px 10px #0a212e, 
-    -5px -5px 10px #1f506d;
+    6px 6px 10px rgb(5, 26, 36), 
+    -6px -6px 10px rgb(14, 65, 90);
+    animation-name: potTitle;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+}
+
+#portTitle {animation-timing-function: linear;}
+
+@keyframes potTitle{
+    0% {text-shadow: 6px 6px 10px rgb(5, 26, 36), -6px -6px 10px rgb(14, 65, 90);}
+    50% {text-shadow: 0 0 0 rgb(5, 26, 36), 0 0 0 rgb(14, 65, 90);}
+    100% {text-shadow: 6px 6px 10px rgb(5, 26, 36), -6px -6px 10px rgb(14, 65, 90);}
 }

@@ -6,10 +6,22 @@
 
 .aboutTitle{
     font-size: 5rem;
-    color: #123143;
+    color: #0B2A3A;
     text-shadow: 
-    6px 6px 10px #0a212e, 
-    -6px -6px 10px #1f506d;
+    6px 6px 10px rgb(5, 26, 36), 
+    -6px -6px 10px rgb(14, 65, 90);
+    animation-name: abtTitle;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+}
+
+#aboutTitle {animation-timing-function: linear;}
+
+@keyframes abtTitle{
+    0% {text-shadow: 6px 6px 10px rgb(5, 26, 36), -6px -6px 10px rgb(14, 65, 90);}
+    50% {text-shadow: 0 0 0 rgb(5, 26, 36), 0 0 0 rgb(14, 65, 90);}
+    100% {text-shadow: 6px 6px 10px rgb(5, 26, 36), -6px -6px 10px rgb(14, 65, 90);}
 }
 
 .info-box{
@@ -36,6 +48,21 @@
     flex-direction: column;
     margin-top: 50px;
     height: 350px;
+    width: 900px;
+    box-shadow: 
+    6px 6px 10px rgb(30, 132, 136), 
+    -6px -6px 10px rgb(32, 141, 158);
+    font-family: 'Orbitron', sans-serif;
+    border-radius: 10px;
+}
+
+.info3-text{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 470px;
     width: 900px;
     box-shadow: 
     6px 6px 10px rgb(30, 132, 136), 
