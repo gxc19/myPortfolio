@@ -23,3 +23,20 @@
     50% {text-shadow: 0 0 0 rgb(5, 26, 36), 0 0 0 rgb(14, 65, 90);}
     100% {text-shadow: 6px 6px 10px rgb(5, 26, 36), -6px -6px 10px rgb(14, 65, 90);}
 }
+
+.port-layout{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 1500px;
+}
+
+.project-image{
+    height: auto;
+    width: 400px;
+    margin: 20px 20px 20px 20px;
+}
