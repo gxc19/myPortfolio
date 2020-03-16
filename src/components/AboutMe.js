@@ -13,7 +13,7 @@ class AboutMe extends Component {
                 <AboutTitle/>
                 <AboutInfo/>
                 <AboutInfo2/>
-                <AboutInfo3/>
+                {/* <AboutInfo3/> */}
             </div>
         );
     }

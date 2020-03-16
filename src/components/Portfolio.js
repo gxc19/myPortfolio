@@ -18,12 +18,6 @@ class Portfolio extends Component {
             { image: weatherApp, title: "Weather App", link: 'https://powerful-ridge-89114.herokuapp.com', moreInfo: false},
         ]
     }
-
-    clickHandler = index => {
-        let infoBox = [...this.state.projects]
-        infoBox[index].moreInfo = true
-        this.setState({ projects: infoBox })
-    }
     
     render() { 
         return (

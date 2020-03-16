@@ -39,4 +39,34 @@
     height: auto;
     width: 400px;
     margin: 20px 20px 20px 20px;
+    border-radius: 10px;
+    position: relative;
+    cursor: pointer;
+}
+
+.project-image2{
+    height: 203px;
+    width: 400px;
+    margin: 20px 20px 20px 20px;
+    border-radius: 10px;
+    position: relative;
+    cursor: pointer;
+    background-color: gray;
+}
+
+.pTitle{
+    position: absolute;
+    z-index: 1;
+}
+
+a.pLink{
+    position: absolute;
+    z-index: 1;
+    font-size: 15px;
+
+}
+
+.backCard{
+    display: flex;
+    justify-content: center;
 }
