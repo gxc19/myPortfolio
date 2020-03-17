@@ -4,7 +4,7 @@ import Title from './Title'
 
 const Home = () => {
     return (
-        <div>
+        <div className="home">
             <Title/>
 
         </div>

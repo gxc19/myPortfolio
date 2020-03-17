@@ -11,17 +11,17 @@ import weatherApp from '../images/weatherApp3.png'
 class Portfolio extends Component {
     state = {
         projects: [
-            { image: calculator, title: "Calculator", link: 'https://gxc19.github.io/calculator', moreInfo: false},
-            { image: bongoCat, title: "Bongo Cat", link: 'https://gxc19.github.io/drumKit', moreInfo: false},
-            { image: weatherApp, title: "Weather App", link: 'https://powerful-ridge-89114.herokuapp.com', moreInfo: false},
-            { image: appleClone, title: "Apple Clone", link: 'https://gxc19.github.io/appleWebsiteClone', moreInfo: false},
-            { image: googleFonts, title: "Google Fonts", link: 'https://gxc19.github.io/gfont-clone-challenge', moreInfo: false},
+            { image: calculator, title: "Calculator", link: 'https://gxc19.github.io/calculator', info: 'This is a calculator I have made using React'},
+            { image: bongoCat, title: "Bongo Cat", link: 'https://gxc19.github.io/drumKit', info: 'This is a Bongo Cat themed drum kit using a combination of JavaScript Dom, HTML and CSS.'},
+            { image: weatherApp, title: "Weather App", link: 'https://powerful-ridge-89114.herokuapp.com', info: 'yes'},
+            { image: appleClone, title: "Apple Clone", link: 'https://gxc19.github.io/appleWebsiteClone', info: 'yes'},
+            { image: googleFonts, title: "Google Fonts", link: 'https://gxc19.github.io/gfont-clone-challenge', info: 'yes'},
         ]
     }
     
     render() { 
         return (
-            <div>
+            <div className="portfolio">
                 <PortTitle/>
                 <PortLayout projectInfo = {this.state.projects}/>
             </div>

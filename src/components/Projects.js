@@ -17,6 +17,7 @@ const Projects = (props) => {
             <div className="backCard">
                 <h1 className="pTitle">{props.projectInfo.title}</h1>
                 <div className="project-image2" onClick={handleClick}></div>
+                <p className="pInfo">{props.projectInfo.info}</p>
                 <a className="pLink" href={props.projectInfo.link}>Link to Project</a>
             </div>
         </ReactCardFlip>

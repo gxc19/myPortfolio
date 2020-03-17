@@ -1,6 +1,5 @@
 body{
   background: linear-gradient(180deg, rgba(0,29,42,1) 6%, rgba(18,49,67,1) 28%, rgba(10,95,115,1) 55%, rgba(44,154,161,1) 79%, rgba(68,247,246,1) 100%);
-  /* background: linear-gradient(180deg, rgba(10,14,33,1) 0%, rgba(19,32,72,1) 29%, rgba(33,75,147,1) 57%, rgba(66,147,206,1) 81%, rgba(146,231,252,1) 100%); */
   background-repeat: no-repeat;
   height: 100vh;
 }
