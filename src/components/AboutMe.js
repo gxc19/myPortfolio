@@ -9,11 +9,11 @@ class AboutMe extends Component {
    
     render() { 
         return (
-            <div>
+            <div className="about">
                 <AboutTitle/>
                 <AboutInfo/>
                 <AboutInfo2/>
-                {/* <AboutInfo3/> */}
+                <AboutInfo3/>
             </div>
         );
     }

@@ -54,19 +54,43 @@
     background-color: gray;
 }
 
+.backCard{
+    display: flex;
+    justify-content: center;
+    font-family: 'Orbitron', sans-serif;
+}
+
 .pTitle{
     position: absolute;
     z-index: 1;
 }
 
-a.pLink{
+.pLink{
     position: absolute;
     z-index: 1;
     font-size: 15px;
-
+    margin-top: 180px;
 }
 
-.backCard{
-    display: flex;
-    justify-content: center;
+/* .pLink:link{
+    color: rgb(231, 231, 231);
+    text-decoration: none;
 }
+
+.pLink:visited{
+    color: rgb(231, 231, 231);
+}
+
+.pLink:hover{
+    font-weight: 1000;
+    box-shadow: 
+    5px 5px 10px #01131b, 
+    -5px -5px 10px #063b53;
+}
+
+.pLink:active{
+    box-shadow: inset
+    3px 3px 3px #011016,
+    inset
+    -3px -3px 3px #063b53;
+} */
