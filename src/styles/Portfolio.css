@@ -1,10 +1,10 @@
-.port-t-box{
+/* .t-box{
     display: flex;
     justify-content: center;
     font-family: 'Orbitron', sans-serif;
-}
+} */
 
-.portTitle{
+/* .subTitle{
     font-size: 5rem;
     color: #0B2A3A;
     text-shadow: 
@@ -16,13 +16,13 @@
     animation-direction: reverse;
 }
 
-#portTitle {animation-timing-function: linear;}
+#subTitle {animation-timing-function: linear;}
 
 @keyframes potTitle{
     0% {text-shadow: 6px 6px 10px rgb(5, 26, 36), -6px -6px 10px rgb(14, 65, 90);}
     50% {text-shadow: 0 0 0 rgb(5, 26, 36), 0 0 0 rgb(14, 65, 90);}
     100% {text-shadow: 6px 6px 10px rgb(5, 26, 36), -6px -6px 10px rgb(14, 65, 90);}
-}
+} */
 
 .port-layout{
     position: absolute;
@@ -52,13 +52,13 @@
 }
 
 .project-image2{
-    height: 221.94px;
+    height: 203.95px;
     width: 400px;
     margin: 30px 30px 30px 30px;
     border-radius: 10px;
     position: relative;
     cursor: pointer;
-    background-color: gray;
+    background-color: rgb(101, 169, 179);
 }
 
 .backCard{

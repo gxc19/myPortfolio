@@ -1,39 +1,13 @@
-.about{
-    background: linear-gradient(180deg, rgba(0,29,42,1) 6%, rgba(18,49,67,1) 28%, rgba(10,95,115,1) 55%, rgba(44,154,161,1) 79%, rgba(68,247,246,1) 100%);
-    /* background: linear-gradient(180deg, rgba(10,14,33,1) 0%, rgba(19,32,72,1) 29%, rgba(33,75,147,1) 57%, rgba(66,147,206,1) 81%, rgba(146,231,252,1) 100%); */
-    background-repeat: no-repeat;
-    height: auto;
-  }
-
-.about-t-box{
-    display: flex;
-    justify-content: center;
-    font-family: 'Orbitron', sans-serif;
-}
-
-.aboutTitle{
-    font-size: 5rem;
-    color: #0B2A3A;
-    text-shadow: 
-    6px 6px 10px rgb(5, 26, 36), 
-    -6px -6px 10px rgb(14, 65, 90);
-    animation-name: abtTitle;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
-    animation-direction: reverse;
-}
-
-#aboutTitle {animation-timing-function: linear;}
-
-@keyframes abtTitle{
-    0% {text-shadow: 6px 6px 10px rgb(5, 26, 36), -6px -6px 10px rgb(14, 65, 90);}
-    50% {text-shadow: 0 0 0 rgb(5, 26, 36), 0 0 0 rgb(14, 65, 90);}
-    100% {text-shadow: 6px 6px 10px rgb(5, 26, 36), -6px -6px 10px rgb(14, 65, 90);}
+.about-box{
+    overflow: auto;
+    width: 100vw;
+    height: 600px;
 }
 
 .info-box{
     display: flex;
     justify-content: center;
+    margin-top: 15px;
 }
 
 .info-text{

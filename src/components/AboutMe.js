@@ -11,9 +11,11 @@ class AboutMe extends Component {
         return (
             <div className="about">
                 <AboutTitle/>
-                <AboutInfo/>
-                <AboutInfo2/>
-                <AboutInfo3/>
+                <div className="about-box">
+                    <AboutInfo/>
+                    <AboutInfo2/>
+                    <AboutInfo3/>
+                </div>
             </div>
         );
     }

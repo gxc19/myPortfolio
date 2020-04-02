@@ -2,4 +2,33 @@ body{
   background: linear-gradient(180deg, rgba(0,29,42,1) 6%, rgba(18,49,67,1) 28%, rgba(10,95,115,1) 55%, rgba(44,154,161,1) 79%, rgba(68,247,246,1) 100%);
   background-repeat: no-repeat;
   height: 100vh;
+  /* background: linear-gradient(180deg, rgba(2,38,78,1) 0%, rgba(6,52,117,1) 27%, rgba(24,80,140,1) 50%, rgba(247,163,195,1) 100%); */
+  /* background: linear-gradient(180deg, rgba(2,31,45,1) 0%, rgba(18,90,124,1) 50%, rgba(92,183,224,1) 100%); */
+
+}
+
+.t-box{
+  display: flex;
+  justify-content: center;
+  font-family: 'Orbitron', sans-serif;
+}
+
+.subTitle{
+  font-size: 6rem;
+  color: #0B2A3A;
+  text-shadow: 
+  6px 6px 10px rgb(5, 26, 36), 
+  -6px -6px 10px rgb(14, 65, 90);
+  animation-name: abtTitle;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: reverse;
+}
+
+#subTitle {animation-timing-function: linear;}
+
+@keyframes abtTitle{
+  0% {text-shadow: 6px 6px 10px rgb(5, 26, 36), -6px -6px 10px rgb(14, 65, 90);}
+  50% {text-shadow: 0 0 0 rgb(5, 26, 36), 0 0 0 rgb(14, 65, 90);}
+  100% {text-shadow: 6px 6px 10px rgb(5, 26, 36), -6px -6px 10px rgb(14, 65, 90);}
 }
