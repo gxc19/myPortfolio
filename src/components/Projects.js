@@ -1,15 +1,16 @@
 import React, { useState } from 'react'
 import ReactCardFlip from 'react-card-flip'
 
-const Projects = (props) => {
 
+const Projects = (props) => {
+   
     const [isFlipped, setIsFlipped] = useState(false)
     const handleClick = () => {
         setIsFlipped(!isFlipped)
     }
 
     return (
-        <ReactCardFlip isFlipped={isFlipped} flipDirection="horizontal">
+        <ReactCardFlip isFlipped={isFlipped} flipDirection="horizontal" >
             <div>
                 <img className="project-image" src={props.projectInfo.image} alt="" onClick={handleClick}/>
             </div>

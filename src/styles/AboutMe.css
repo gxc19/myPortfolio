@@ -1,53 +1,91 @@
-.about-box{
+/* body{
+    background: linear-gradient(180deg, rgba(0,29,42,1) 6%, rgba(18,49,67,1) 28%, rgba(10,95,115,1) 55%, rgba(44,154,161,1) 79%, rgba(68,247,246,1) 100%);
+    background-repeat: no-repeat;
+    height: auto;
+  
+  } */
+
+/* .about-box{
     overflow: auto;
     width: 100vw;
     height: 600px;
+} */
+
+.about{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    z-index: 1;
 }
 
 .info-box{
     display: flex;
     justify-content: center;
-    margin-top: 15px;
+    margin-top: 20px;
 }
 
 .info-text{
     display: flex;
     text-align: center;
     flex-direction: column;
-    height: 200px;
+    height: 110px;
     width: 900px;
     box-shadow: 
-    6px 6px 10px rgb(11, 54, 70), 
-    -6px -6px 10px rgb(16, 74, 97);
-    font-family: 'Orbitron', sans-serif;
+    6px 6px 10px #041830, 
+    -6px -6px 10px #082f5e;
+    font-family: 'Montserrat', sans-serif;
     border-radius: 10px;
+}
+
+.infoHeading{
+    margin: 15px 20px 0;
+    font-size: 18px;
+    font-weight: 1000;
+}
+
+.info{
+    margin: 15px 20px 0;
 }
 
 .info2-text{
     display: flex;
     text-align: center;
     flex-direction: column;
-    margin-top: 50px;
-    height: 350px;
+    margin-top: 30px;
+    height: 230px;
     width: 900px;
     box-shadow: 
-    6px 6px 10px rgb(30, 132, 136), 
-    -6px -6px 10px rgb(32, 141, 158);
-    font-family: 'Orbitron', sans-serif;
+    6px 6px 10px #072649, 
+    -6px -6px 10px #0d417c;
+    font-family: 'Montserrat', sans-serif;
     border-radius: 10px;
 }
 
-.info3-text{
-    display: flex;
-    text-align: center;
-    flex-direction: column;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    height: 470px;
-    width: 900px;
-    box-shadow: 
-    6px 6px 10px rgb(30, 132, 136), 
-    -6px -6px 10px rgb(32, 141, 158);
-    font-family: 'Orbitron', sans-serif;
-    border-radius: 10px;
+@media only screen and (max-width: 600px){
+    .info-text{
+        width: 300px;
+        height: 150px;
+        font-size: 13px;
+    }
+    .info2-text{
+        width: 300px;
+        height: 390px;
+        font-size: 13px;
+        margin-bottom: 50px;
+    }
+    .infoContainer{
+        width: 100vw;
+        height: 460px;
+        overflow: auto;
+    }
 }
+
+@media only screen and (max-width: 1440px) and (min-width: 601px){
+    .info-text{
+        width: 700px;
+    }
+    .info2-text{
+        width: 700px;
+    }
+  }

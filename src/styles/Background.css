@@ -1,0 +1,25 @@
+.test5 {
+    background: #c5f3ff;
+    background: #9c1f34;
+    background: #f8768c;
+
+    background: #106d8a;
+    background: #105d8a;
+    background: #b1f2ff;
+
+    background: #08a784;
+    background: #d7fff6;
+
+    background: #10687c;
+    background: #6baebe;
+    background: rgba(255, 255, 255, 0.2);
+}
+
+@media only screen and (max-width: 600px){
+  .cloudBG{
+      display: none;
+  }
+}
+
+        
+        

@@ -1,34 +1,15 @@
-/* .t-box{
-    display: flex;
-    justify-content: center;
-    font-family: 'Orbitron', sans-serif;
-} */
-
-/* .subTitle{
-    font-size: 5rem;
-    color: #0B2A3A;
-    text-shadow: 
-    6px 6px 10px rgb(5, 26, 36), 
-    -6px -6px 10px rgb(14, 65, 90);
-    animation-name: potTitle;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
-    animation-direction: reverse;
+body{
+    overflow: hidden;
 }
 
-#subTitle {animation-timing-function: linear;}
-
-@keyframes potTitle{
-    0% {text-shadow: 6px 6px 10px rgb(5, 26, 36), -6px -6px 10px rgb(14, 65, 90);}
-    50% {text-shadow: 0 0 0 rgb(5, 26, 36), 0 0 0 rgb(14, 65, 90);}
-    100% {text-shadow: 6px 6px 10px rgb(5, 26, 36), -6px -6px 10px rgb(14, 65, 90);}
-} */
+.port-pic{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 500px;
+}
 
 .port-layout{
-    position: absolute;
-    top: 70%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -42,7 +23,6 @@
     border-radius: 10px;
     position: relative;
     cursor: pointer;
-    /* box-shadow: 5px 2px 5px 10px rgba(0, 0, 0, 0.233); */
 }
 
 .project-image:hover{
@@ -58,7 +38,7 @@
     border-radius: 10px;
     position: relative;
     cursor: pointer;
-    background-color: rgb(101, 169, 179);
+    background-color: #5B92A7;
 }
 
 .backCard{
@@ -79,12 +59,13 @@
     position: absolute;
     margin-top: 120px;
     width: 300px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .pLink{
     position: absolute;
     z-index: 1;
-    font-size: 15px;
+    font-size: 20px;
     margin-top: 200px;
 }
 
@@ -100,3 +81,69 @@
 .pLink:hover{
     font-weight: 1000;
 }
+
+@media only screen and (max-width: 600px){
+    .port-pic{
+        overflow: auto;
+        height: 450px;
+    }
+    .port-layout{
+        width: 500px;
+    }
+    .project-image{
+        width: 300px;
+        margin-top: 0;
+    }
+    .project-image:hover{
+        width: 400px;
+    }
+    .project-image2{
+        height: 152.97px;
+        width: 300px;
+        margin-top: 0;
+    }
+    .pLink{
+        margin-top: 170px;
+    }
+    ::-webkit-scrollbar{
+        width: 0;
+    }
+    .pTitle{
+        margin-top: 10px;
+        font-size: 25px;
+    }
+    .pInfo{
+        margin-top: 55px;
+        font-size: 15px;
+        width: 280px;
+    }
+    .pLink{
+        margin-top: 120px;
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 1440px) and (min-width: 601px) {
+    .project-image{
+        width: 370px;
+        margin-top: 0;
+    }
+    .project-image2{
+        height: 188.66px;
+        width: 370px;
+        margin-top: 0;
+    }
+    .pTitle{
+        margin-top: 10px;
+    }
+    .pInfo{
+        margin-top: 80px;
+    }
+    .pLink{
+        margin-top: 150px;
+    }
+    .project-image:hover{
+        width: 400px;
+        margin: 5px 5px 5px 5px;
+    }
+  }

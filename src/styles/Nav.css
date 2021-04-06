@@ -1,21 +1,28 @@
 .navBar{
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     width: 100vw;
-    padding: 30px 0 30px 0;
+    padding: 15px 0 0 0;
     font-family: 'Orbitron', sans-serif;
-    
+}
+
+.navBox{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 50px;
+    justify-content: flex-end;
 }
 
 .navLink{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 50px;
-    font-size: 1.2rem;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 1.3rem;
     width: 120px;
     height: 40px;
-    border-radius: 5px;
 }
 
 .navLink:link{
@@ -29,14 +36,11 @@
 
 .navLink:hover{
     font-weight: 1000;
-    box-shadow: 
-    5px 5px 10px #01131b, 
-    -5px -5px 10px #063b53;
+    border-bottom: 2px solid#ffffff;
 }
 
-.navLink:active{
-    box-shadow: inset
-    3px 3px 3px #011016,
-    inset
-    -3px -3px 3px #063b53;
+@media only screen and (max-width: 600px){
+    .navBar{
+        display: none;
+    }
 }

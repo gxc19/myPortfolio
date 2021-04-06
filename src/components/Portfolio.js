@@ -8,6 +8,7 @@ import calculator from '../images/calculator9.png'
 import googleFonts from '../images/googleFonts9.png'
 import weatherApp from '../images/weatherApp9.png'
 import goGetWork from '../images/goGetWork.png'
+import Clouds from './Clouds'
 
 class Portfolio extends Component {
     state = {
@@ -23,10 +24,18 @@ class Portfolio extends Component {
     
     render() { 
         return (
-            <div className="portfolio">
+            <div className="bigContainer">
+                <div className="mainContent">
                 <PortTitle/>
-                <PortLayout projectInfo = {this.state.projects}/>
+                <div className="port-pic">
+                    <PortLayout projectInfo = {this.state.projects}/>
+                </div>
             </div>
+            <div className="svgCloud">
+                <Clouds/>
+            </div>
+            </div>
+            
         );
     }
 }

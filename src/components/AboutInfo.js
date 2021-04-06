@@ -5,9 +5,8 @@ const AboutInfo = () => {
     return (
         <div className="info-box">
             <div className="info-text">
-                <p>My name is Ga Ming Chan.</p>
-                <p>I used to be a rather shy guy, but over time I feel like i've opened up a lot more after taking some drama lessons back in school. This has helped me be more confident when speaking up.</p>
-                <p>In regards to education, I studied at Abbey Gate College and stayed until upper sixth. I studied Business Studies, Design & Technology and EPQ.</p>
+                <p className="infoHeading">Hi, I am Ga Ming.</p>
+                <p className="info">I am a 20 year old, who has a burning desire to further expand my skill set. I may be quiet at first but once you get to know me, I'm a kind and friendly person :).</p>
             </div>
         </div>
     );

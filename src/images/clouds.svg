@@ -1,0 +1,15 @@
+<svg width="100vw" height="100vh" viewBox="0 0 100 100">
+                
+                <path
+                stroke="#FA454E"
+                fill="none"
+                strokeWidth="0.1"
+                d="M40 2
+                    a1 1, 0, 1 0, 0 13
+                    h20
+                    a1 1, 0, 1 0, 0 -13
+                    z
+                "
+                />
+        
+            </svg>

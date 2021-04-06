@@ -1,0 +1,183 @@
+.menuContainer{
+    display: flex;
+    flex-direction: row;
+    height: 180px;
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 80px;
+    width: 80px;
+    background-color: #5B92A7;
+    border-radius: 0 0 100% 0;
+    cursor: pointer;
+}
+
+.menu:focus{
+    outline: none;
+}
+
+.menu-line{
+    width: 50px;
+    height: 5px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    transition: all .2s ease-in-out;
+}
+
+.menu-line2{
+    width: 40px;
+    height: 5px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    margin: 8px 0;
+    transition: all .2s ease-in-out;
+}
+
+.menu-line3{
+    width: 30px;
+    height: 5px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    transition: all .2s ease-in-out;
+}
+
+.menu-line.open{
+    width: 45px;
+    transform: rotate(45deg);
+}
+
+.menu-line2.open{
+    transform: translateX(-10px);
+    background: none;
+    margin: 0;
+}
+
+.menu-line3.open{
+    top: 0;
+    width: 45px;
+    transform: rotate(-45deg) translate(7px, -7px);
+}
+
+.menuBtn{
+    position: relative;
+}
+
+.icon{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.homeIcon{
+    top: 0;
+    position: relative;
+    height: 55px;
+    width: 55px;
+    background-color: #5B92A7;
+    border-radius: 50%;
+}
+
+.userIcon{
+    position: relative;
+    height: 55px;
+    width: 55px;
+    background-color: #5B92A7;
+    border-radius: 50%;
+}
+
+.portIcon{
+    position: relative;
+    height: 55px;
+    width: 55px;
+    background-color: #5B92A7;
+    border-radius: 50%;
+}
+
+.contactIcon{
+    position: relative;
+    height: 55px;
+    width: 55px;
+    background-color: #5B92A7;
+    border-radius: 50%;
+}
+
+.burgerLink:visited{
+    color: #ffffff;
+}
+
+.none{
+    position: absolute;
+    visibility: hidden;
+}
+
+.show{
+    position: absolute;
+    animation-name: showBtn;
+    animation-duration: .2s;
+    animation-fill-mode: forwards;
+    z-index: 3;
+}
+
+@keyframes showBtn{
+    0% {opacity: 0;}
+    10% {opacity: 0;}
+    100% {transform: translateX(45px); opacity: 1;}
+}
+
+.show2{
+    position: absolute;
+    animation-name: showBtn2;
+    animation-duration: .3s;
+    animation-fill-mode: forwards;
+    z-index: 2;
+    
+}
+
+@keyframes showBtn2{
+    0% {opacity: 0;}
+    15% {opacity: 0;}
+    45% {transform: translateX(45px); opacity: 1;}
+    100% {transform: translate(35px, 65px);}
+}
+
+.show3{
+    position: absolute;
+    animation-name: showBtn3;
+    animation-duration: .4s;
+    animation-fill-mode: forwards;
+    z-index: 1;
+}
+
+@keyframes showBtn3{
+    0% {opacity: 0;}
+    20% {opacity: 0;}
+    40% {transform: translateX(45px); opacity: 1;}
+    60% {transform: translate(35px, 65px);}
+    100% {transform: translate(-15px, 110px);}
+}
+
+.show4{
+    position: absolute;
+    animation-name: showBtn4;
+    animation-duration: .5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes showBtn4{
+    0% {opacity: 0;}
+    30% {opacity: 0;}
+    40% {transform: translateX(45px); opacity: 1;}
+    50% {transform: translate(35px, 65px);}
+    60% {transform: translate(-15px, 110px);}
+    100% {transform: translate(-80px, 120px);}
+}
+
+@media only screen and (min-width: 601px) {
+    .menuContainer{
+        display: none;
+    }
+}
