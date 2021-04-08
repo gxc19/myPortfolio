@@ -123,7 +123,7 @@ body{
     }
 }
 
-@media only screen and (max-width: 1440px) and (min-width: 601px) {
+@media only screen and (max-width: 1440px) and (min-width: 1281px) {
     .project-image{
         width: 370px;
         margin-top: 0;
@@ -144,6 +144,31 @@ body{
     }
     .project-image:hover{
         width: 400px;
+        margin: 5px 5px 5px 5px;
+    }
+  }
+
+  @media only screen and (max-width: 1280px) and (min-width: 601px){
+    .project-image{
+        width: 340px;
+        margin-top: 0;
+    }
+    .project-image2{
+        height: 173.36px;
+        width: 340px;
+        margin-top: 0;
+    }
+    .pTitle{
+        margin-top: 10px;
+    }
+    .pInfo{
+        margin-top: 70px;
+    }
+    .pLink{
+        margin-top: 140px;
+    }
+    .project-image:hover{
+        width: 375px;
         margin: 5px 5px 5px 5px;
     }
   }
